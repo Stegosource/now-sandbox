@@ -1,0 +1,11 @@
+{
+  "name": "my-app-name",
+  "alias": ["my-app-alias", "my-other-alias"],
+  "env": {
+    "DATABASE_NAME": "test"
+  },
+  "dotenv": ".env.production",
+  "build": {
+    "env": {}
+  }
+}

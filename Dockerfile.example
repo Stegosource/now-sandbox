@@ -1,0 +1,7 @@
+FROM node:alpine
+
+# Retrieve and relate to the environment variable you declared with 'now -e' or 'now --build-env'
+ARG <NAME>
+
+# Print your variable value
+RUN echo $<NAME>
